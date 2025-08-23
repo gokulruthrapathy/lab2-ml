@@ -1,6 +1,4 @@
-# Lab 02 Adapted to features_raw.csv
-# All questions A1–A9 implemented in one file
-# Modular code: all functionality in functions, print only in main
+
 
 import pandas as pd
 import numpy as np
@@ -138,3 +136,4 @@ if __name__ == "__main__":
     print("A5/A6 Similarities -> JC:", jc, "SMC:", smc, "COS:", cos)
     print("A8 Any missing after impute?:", df_imputed.isnull().sum().sum())
     print("A9 First row after scaling:", df_scaled.iloc[0, :5])
+
